@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="visualData/icon.png">
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
     <title>Document</title>
 </head>
@@ -10,7 +12,8 @@
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">
-            <img src="/docs/5.3/assets/brand/bootstrap-logo.svg" alt="SmartFlow" width="30" height="24">
+            <img src="visualData/icon.png" alt="SmartFlow" height="24">
+            SmartFlow
           </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -33,8 +36,20 @@
           </div>
         </div>
       </nav>
-
-
+      <div class="title">Smart Flow</div>
+      <div id="carouselExample" data-bs-ride="carousel" class="carousel slide" style="max-height: 93vh; overflow: hidden;">
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="5000">
+            <img src="visualData/windEnergy.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="5000">
+            <img src="visualData/solar.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="5000">
+            <img src="visualData/windEnergy2.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+      </div>
     <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
 </body>
 </html>
