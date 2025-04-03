@@ -17,6 +17,22 @@
     letter-spacing: 15px;
 }
 
+.SubTitle{
+    margin-top: 10%;
+    margin-bottom: 5%;
+    font-size: 2.5em;
+    letter-spacing: 15px;
+}
+
+.underText{
+    width: 400px;
+}
+
+.ourImpact{
+    text-align: left;
+    width: 500px;
+}
+
 @media only screen and (max-width:1521px){
     .title{
         display: none;
